@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD253D7F2CFFB24F00881D75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD253D742CFFB24F00881D75 /* Preview Assets.xcassets */; };
+		DD253D802CFFB24F00881D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD253D7B2CFFB24F00881D75 /* Assets.xcassets */; };
+		DD253D812CFFB24F00881D75 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D702CFFB24F00881D75 /* Date+Extension.swift */; };
+		DD253D822CFFB24F00881D75 /* SleepDataFatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D722CFFB24F00881D75 /* SleepDataFatcher.swift */; };
+		DD253D832CFFB24F00881D75 /* HealthKitAuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D762CFFB24F00881D75 /* HealthKitAuthorizationView.swift */; };
+		DD253D842CFFB24F00881D75 /* SleepChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D772CFFB24F00881D75 /* SleepChartView.swift */; };
+		DD253D852CFFB24F00881D75 /* SleepChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D782CFFB24F00881D75 /* SleepChartViewModel.swift */; };
+		DD253D862CFFB24F00881D75 /* TimeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D792CFFB24F00881D75 /* TimeSelectionView.swift */; };
+		DD253D872CFFB24F00881D75 /* SlipMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D7D2CFFB24F00881D75 /* SlipMonitorApp.swift */; };
+		DD253D8A2CFFB57100881D75 /* DateSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253D892CFFB57100881D75 /* DateSelectorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD253D702CFFB24F00881D75 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		DD253D722CFFB24F00881D75 /* SleepDataFatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDataFatcher.swift; sourceTree = "<group>"; };
+		DD253D742CFFB24F00881D75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD253D762CFFB24F00881D75 /* HealthKitAuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitAuthorizationView.swift; sourceTree = "<group>"; };
+		DD253D772CFFB24F00881D75 /* SleepChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepChartView.swift; sourceTree = "<group>"; };
+		DD253D782CFFB24F00881D75 /* SleepChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepChartViewModel.swift; sourceTree = "<group>"; };
+		DD253D792CFFB24F00881D75 /* TimeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectionView.swift; sourceTree = "<group>"; };
+		DD253D7B2CFFB24F00881D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD253D7C2CFFB24F00881D75 /* SleepMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepMonitor.entitlements; sourceTree = "<group>"; };
+		DD253D7D2CFFB24F00881D75 /* SlipMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipMonitorApp.swift; sourceTree = "<group>"; };
+		DD253D892CFFB57100881D75 /* DateSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectorView.swift; sourceTree = "<group>"; };
+		DDC13C282CF4CF4300A98A45 /* SleepMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC13C252CF4CF4300A98A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD253D712CFFB24F00881D75 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD253D702CFFB24F00881D75 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD253D732CFFB24F00881D75 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD253D722CFFB24F00881D75 /* SleepDataFatcher.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DD253D752CFFB24F00881D75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD253D742CFFB24F00881D75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD253D7A2CFFB24F00881D75 /* SleepChart */ = {
+			isa = PBXGroup;
+			children = (
+				DD253D772CFFB24F00881D75 /* SleepChartView.swift */,
+				DD253D782CFFB24F00881D75 /* SleepChartViewModel.swift */,
+			);
+			path = SleepChart;
+			sourceTree = "<group>";
+		};
+		DD253D7E2CFFB24F00881D75 /* SleepMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				DD253D882CFFB31100881D75 /* DateSelectors */,
+				DD253D712CFFB24F00881D75 /* Extensions */,
+				DD253D732CFFB24F00881D75 /* Helpers */,
+				DD253D7A2CFFB24F00881D75 /* SleepChart */,
+				DD253D752CFFB24F00881D75 /* Preview Content */,
+				DD253D7B2CFFB24F00881D75 /* Assets.xcassets */,
+				DD253D7C2CFFB24F00881D75 /* SleepMonitor.entitlements */,
+				DD253D762CFFB24F00881D75 /* HealthKitAuthorizationView.swift */,
+				DD253D7D2CFFB24F00881D75 /* SlipMonitorApp.swift */,
+			);
+			path = SleepMonitor;
+			sourceTree = "<group>";
+		};
+		DD253D882CFFB31100881D75 /* DateSelectors */ = {
+			isa = PBXGroup;
+			children = (
+				DD253D792CFFB24F00881D75 /* TimeSelectionView.swift */,
+				DD253D892CFFB57100881D75 /* DateSelectorView.swift */,
+			);
+			path = DateSelectors;
+			sourceTree = "<group>";
+		};
+		DDC13C1F2CF4CF4300A98A45 = {
+			isa = PBXGroup;
+			children = (
+				DD253D7E2CFFB24F00881D75 /* SleepMonitor */,
+				DDC13C292CF4CF4300A98A45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC13C292CF4CF4300A98A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC13C282CF4CF4300A98A45 /* SleepMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC13C272CF4CF4300A98A45 /* SleepMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC13C362CF4CF4500A98A45 /* Build configuration list for PBXNativeTarget "SleepMonitor" */;
+			buildPhases = (
+				DDC13C242CF4CF4300A98A45 /* Sources */,
+				DDC13C252CF4CF4300A98A45 /* Frameworks */,
+				DDC13C262CF4CF4300A98A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepMonitor;
+			packageProductDependencies = (
+			);
+			productName = SlipMonitor;
+			productReference = DDC13C282CF4CF4300A98A45 /* SleepMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC13C202CF4CF4300A98A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					DDC13C272CF4CF4300A98A45 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = DDC13C232CF4CF4300A98A45 /* Build configuration list for PBXProject "SleepMonitor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC13C1F2CF4CF4300A98A45;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDC13C292CF4CF4300A98A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC13C272CF4CF4300A98A45 /* SleepMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC13C262CF4CF4300A98A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD253D7F2CFFB24F00881D75 /* Preview Assets.xcassets in Resources */,
+				DD253D802CFFB24F00881D75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC13C242CF4CF4300A98A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD253D812CFFB24F00881D75 /* Date+Extension.swift in Sources */,
+				DD253D822CFFB24F00881D75 /* SleepDataFatcher.swift in Sources */,
+				DD253D832CFFB24F00881D75 /* HealthKitAuthorizationView.swift in Sources */,
+				DD253D8A2CFFB57100881D75 /* DateSelectorView.swift in Sources */,
+				DD253D842CFFB24F00881D75 /* SleepChartView.swift in Sources */,
+				DD253D852CFFB24F00881D75 /* SleepChartViewModel.swift in Sources */,
+				DD253D862CFFB24F00881D75 /* TimeSelectionView.swift in Sources */,
+				DD253D872CFFB24F00881D75 /* SlipMonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDC13C342CF4CF4500A98A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC13C352CF4CF4500A98A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC13C372CF4CF4500A98A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepMonitor/SleepMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = CHF6QJR2PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To show chafrt of lseep cycles";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To show sleep cycles chart";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dp.sleepMonitor.SleepMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC13C382CF4CF4500A98A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepMonitor/SleepMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = CHF6QJR2PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To show chafrt of lseep cycles";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To show sleep cycles chart";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dp.sleepMonitor.SleepMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC13C232CF4CF4300A98A45 /* Build configuration list for PBXProject "SleepMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC13C342CF4CF4500A98A45 /* Debug */,
+				DDC13C352CF4CF4500A98A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC13C362CF4CF4500A98A45 /* Build configuration list for PBXNativeTarget "SleepMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC13C372CF4CF4500A98A45 /* Debug */,
+				DDC13C382CF4CF4500A98A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC13C202CF4CF4300A98A45 /* Project object */;
+}
